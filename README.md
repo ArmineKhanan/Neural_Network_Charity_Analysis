@@ -26,11 +26,12 @@ In the first attempt, the return of the 'NAME' variable bettered the accuracy si
 
 <kbd><img src="https://github.com/ArmineKhanan/Neural_Network_Charity_Analysis/blob/main/images/optimised_dodel_result.png" alt="Model results" title="OPTIMIZED MODEL RESULTS"></kbd>
 
-We also tried to optimize the model by changing the activation function of hidden layers and introducing bucketting amendments in 'CLASSIFICATION' variable. These also contributed to the accuracy score, but not significantly.
+We also tried to optimize the model by changing the activation function of hidden layers and introducing bucketing amendments in 'CLASSIFICATION' variable. These also contributed to the accuracy score, but not significantly.
 
 ### Saving the results
-We leveraged the Keras Sequential model's save method to export the entire model (weights, structure, and configuration settings) to an Hierarchical Data Format (HDF5 Links to an external site.) file as required.
+
+We leveraged the Keras Sequential model's save method to export the entire model (weights, structure, and configuration settings) to a Hierarchical Data Format (HDF5 Links to an external site.) file as required.
 
 ## Summary
 
-Within the challenged we prcessed the data trained the model, checked the performance and make efforts towards its optimization. As a result we managed to significantly enhance 2-layer deep neural network performance by feature addition. 
+Within the challenge, we processed the data trained the model, checked the performance, and make efforts toward its optimization. As a result, we managed to significantly enhance the 2-layer deep neural network performance by feature addition.
