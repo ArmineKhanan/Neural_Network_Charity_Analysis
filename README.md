@@ -5,13 +5,18 @@
 The purpose of this analysis: Loan prediction risk analysis
 
 ## Results
-
-There is a bulleted list that answers all six questions (15 pt)
-
+### Data preparation
+<b> Processing of categirical variables </b>
+<b> Data Split </b>
+<b> Data scaling </b>
+### Model training 
+### Results
 
 <kbd><img src="https://github.com/ArmineKhanan/Neural_Network_Charity_Analysis/blob/main/images/1st_model%20result.png" alt="Model results" title="INITIAL MODEL RESULTS"></kbd>
 
 <kbd><img src="https://github.com/ArmineKhanan/Neural_Network_Charity_Analysis/blob/main/images/optimised_dodel_result.png" alt="Model results" title="OPTIMIZED MODEL RESULTS"></kbd>
+
+### Saving the results
 
 ## Summary
 
