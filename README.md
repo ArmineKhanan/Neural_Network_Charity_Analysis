@@ -19,9 +19,11 @@ A deep neural network model with two hidden layers and ReLU activation function 
 ### Results
 The results of the abovementioned model are presented below.
 <kbd><img src="https://github.com/ArmineKhanan/Neural_Network_Charity_Analysis/blob/main/images/1st_model%20result.png" alt="Model results" title="INITIAL MODEL RESULTS"></kbd>
-Now we will try to enhance model accuracy score via optimization.
+Now we will try to enhance the model accuracy score via optimization.
+
 ## Optimization
-<b>The first atempt</b> of the optimization, return and bucketing of the 'NAME' variable bettered the accuracy significantly hitting the goal of <b>above 75%</b>.
+In the first attempt, the return of the 'NAME' variable bettered the accuracy significantly, hitting the goal of above 75%.
+
 <kbd><img src="https://github.com/ArmineKhanan/Neural_Network_Charity_Analysis/blob/main/images/optimised_dodel_result.png" alt="Model results" title="OPTIMIZED MODEL RESULTS"></kbd>
 
 We also tried to optimize the model by changing the activation function of hidden layers and introducing bucketting amendments in 'CLASSIFICATION' variable. These also contributed to the accuracy score, but not significantly.
