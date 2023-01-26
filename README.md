@@ -2,19 +2,19 @@
 
 ## Overview 
 
-The purpose of this analysis is to creat a Loan riskprediction model with sufficient performance (accuracy level > 75%).
+We are challenged to develop a Loan risk prediction model with sufficient performance (accuracy level > 75%).
 
 ## Results
 ### Data preparation
 
-<b> Processing of categirical variables: </b> After removal of 'NAME' and 'EIN' columns, the need for bucketing was identified via inspection of the number of unique values per column. The bucketing has been performed for 'APPLICATION_TYPE' and 'CLASSIFICATION' features wich reduced the number of unique values. The subsequent step was one-hot encoding of above mentioned variables. 
+<b> Processing of categorical variables: </b> First, we removed 'NAME' and 'EIN' columns. We identified the need for bucketing via the inspection of the number of unique values per column. We performed bucketing for 'APPLICATION_TYPE' and 'CLASSIFICATION' features. The subsequent step was the one-hot encoding of the above-mentioned variables.
 
-<b> Data split </b> Feature and target data have been split into training and testing sets  for model verification purposes.
+<b> Data split: </b> Feature and target data have been split into training and testing sets for model verification purposes.
 
-<b> Data scaling </b> The data has been normalised using StandardScaler instance to avoid outlier influence on the model performance.
+<b> Data scaling: </b> We normalized data using the StandardScaler instance to avoid outlier influence on the model performance.
 
 ### Model training 
-Deep neural network model with two hidden layers and ReLU activation function have been fit on training set and validated on the testing set.
+A deep neural network model with two hidden layers and ReLU activation function has been fit on a training set and validated on the testing set.
 
 ### Results
 The results of the abovementioned model are presented below.
